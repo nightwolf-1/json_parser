@@ -5,8 +5,11 @@
     "skills": ["Rust", "JavaScript", "Python"],
     "skills2": ["Rust1", "JavaScript1", "Python1", "C"],
     "details": {
-        "city": "Paris",
-        "language": "French"
+        "city": ["Paris", "Londres"],
+        "language": {
+            "lv1": "French",
+            "lv2": "English"
+        }
     },
     "mail": {
         "email": "toto@gmail.com"
