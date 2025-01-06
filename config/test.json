@@ -3,9 +3,13 @@
     "age": 30,
     "is_student": false,
     "skills": ["Rust", "JavaScript", "Python"],
-    "skills2": ["Rust1", "JavaScript1", "Python1", "C"],
+    "skills2": ["Rust", "JavaScript", "Python", "C"],
+    "details2":{
+        "city1": "Paris",
+        "city2": "London"
+    },
     "details": {
-        "city": ["Paris", "Londres"],
+        "city": ["Paris", "London"],
         "language": {
             "lv1": "French",
             "lv2": "English"

@@ -31,3 +31,10 @@
 ```./json_parser data.json details.city or [cat (linux) | type (windows)] data.json | ./json_parser details.city```
 ### Output
 ![Exemple nested object](./assests/images/nested_object_json.png)
+
+## To print all occurences of a value
+
+### Input
+```./json_parser [-s --search] javascript data.json or [cat (linux) | type (windows)] data.json | ./json_parser [-s --search] javascript data.json```
+### Output
+![Exemple nested object](./assests/images/all_occurences_json.png)
