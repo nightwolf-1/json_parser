@@ -1,10 +1,12 @@
 # Json_parser
 
-[![forthebadge](./assests/images/made-with-rust.svg)](https://forthebadge.com)
+[![forthebadge](./assests/svg/made-with-rust.svg)](https://forthebadge.com) [![forthebadge]](./assests/svg/use-asciinema.svg)(https://forthebadge.com)
 
 # Exemple: 
 
 ## To print all json on terminal
+
+![test gif](./assests/gifs/print_all_json.gif)
 
 ### Input
 ```./json_parser data.json or cat data.json | ./json_parser```
