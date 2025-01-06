@@ -1,6 +1,6 @@
 # Json_parser
 
-[![forthebadge](./assests/svg/made-with-rust.svg)](https://forthebadge.com) 
+[![forthebadge]](./assests/svg/made-with-rust.svg)](https://forthebadge.com) 
 [![forthebadge]](./assests/svg/use-asciinema.svg)(https://forthebadge.com)
 
 # Exemple: 
