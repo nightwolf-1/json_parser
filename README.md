@@ -1,7 +1,7 @@
 # Json_parser
 
-![forthebadge](./assests/svg/made-with-rust.svg) 
-![forthebadge](./assests/svg/use-asciinema.svg)
+[![forthebadge](./assests/svg/made-with-rust.svg)(https://www.rust-lang.org)]
+[![forthebadge](./assests/svg/use-asciinema.svg)(https://asciinema.org)]
 
 # Exemple: 
 
