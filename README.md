@@ -14,20 +14,20 @@
 ### To print a specific key of json
 
 ### Input
-```./json_parser data.json skills or cat data.json | ./json_parser skills```
+```./json_parser data.json skills or [cat (linux) | type (windows)] data.json | ./json_parser skills```
 ### Ouput
 ![Exemple key](./assests/images/key_json.png)
 
 ### To print a specific index of key in json
 
 ### Input 
-```./json_parser data.json skills 2 or cat data.json | ./json_parser skills 2```
+```./json_parser data.json skills 2 or [cat (linux) | type (windows)] data.json | ./json_parser skills 2```
 ### Output
 ```JavaScript```
 
 ## To print a nested oject
 
 ### Input 
-```./json_parser data.json details.city or cat data.json | ./json_parser details.city```
+```./json_parser data.json details.city or [cat (linux) | type (windows)] data.json | ./json_parser details.city```
 ### Output
 ![Exemple nested object](./assests/images/nested_object_json.png)
