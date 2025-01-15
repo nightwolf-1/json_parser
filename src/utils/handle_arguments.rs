@@ -1,7 +1,3 @@
-pub use handle_arguments::Command;
-pub use handle_arguments::get_arguments;
-
-pub mod handle_arguments {
     use std::env;
     use std::fs;
     use std::io::{self, Read};
@@ -96,5 +92,4 @@ pub mod handle_arguments {
             cat data.json | ./json_parser details.city\n\
             cat data.json | ./json_parser details.city 1"
         ))
-    }    
-}
+    } 
