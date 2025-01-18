@@ -2,7 +2,7 @@
 
 [![forthebadge](./assets/svg/made-with-rust.svg)](https://www.rust-lang.org/)
 [![forthebadge](./assets/svg/use-asciinema.svg)](https://asciinema.org/)
-[![forthebadge](./assets/svg/uses-badges.svg)](https://forthebadge.com)
+[![forthebadge](./assets/svg/use-forthebadge.svg)](https://forthebadge.com)
 
 # Exemple: 
 
