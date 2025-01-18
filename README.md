@@ -1,10 +1,43 @@
-# Json_parser
+# JSON Parser and Search Utility
 
 [![forthebadge](./assets/svg/made-with-rust.svg)](https://www.rust-lang.org/)
 [![forthebadge](./assets/svg/use-asciinema.svg)](https://asciinema.org/)
 [![forthebadge](./assets/svg/use-forthebadge.svg)](https://forthebadge.com)
 
-# Exemple: 
+## Description
+
+This is a Rust-based command-line utility designed to parse, analyze, and search JSON files efficiently. It provides a simple way to explore JSON structures, locate specific values, and handle complex data formats. The program supports flexible input methods (file paths or stdin) and highlights search results for better readability.
+
+## Features
+
+- Parse and pretty-print JSON files.
+- Search for specific values within JSON structures.
+- Display the full path (keys or indices) to the matched values.
+- Show indices when matches occur within arrays.
+- Support for input via file paths or standard input (stdin).
+- Color-coded output for search results.
+
+### Prerequisites
+
+- [Rust](https://www.rust-lang.org/tools/install) (latest stable version)
+
+### Clone and Build
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-repo/json-parser.git
+   cd json-parser
+    ```
+2. Build the project:
+   ```bash
+   cargo build --release
+   ```
+3. The binary will be avialable in the target/release directory:
+    ```bash
+    ./target/release/json_parser
+    ```
+
+# Usage: 
 
 ## To print all json on terminal
 ![Print all json](./assets/gifs/print_all_json.gif)
