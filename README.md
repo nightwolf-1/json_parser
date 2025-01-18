@@ -39,44 +39,74 @@ This is a Rust-based command-line utility designed to parse, analyze, and search
 
 # Usage: 
 
-## To print all json on terminal
+## Parse a JSON file
+```bash
+./json_parser data.json
+```
 ![Print all json](./assets/gifs/print_all_json.gif)
 
 #### You can also use standard input
-
+```bash
+cat data.json | ./json_parser data.json
+```
 ![Print all json stdin](./assets/gifs/print_all_json_stdin.gif)
 
 ### To print a specific key of json
+```bash
+./json_parser data.json skills
+```
 ![Exemple key](./assets/gifs/json_key_exemple.gif)
 
 #### You can also use standard input
-
+```bash
+cat data.json | ./json_parser skills
+```
 ![Exemple key stdin](./assets/gifs/json_key_exemple_stdin.gif)
 
 ### To print a specific index of key in json
+```bash
+./json_parser data.json skills 2
+```
 ![Exemple specific index of key](./assets/gifs/json_key_index_exemple.gif)
 
 #### You can also use standard input
-
+```bash
+cat data.json | ./json_parser skills 2
+```
 ![Exemple specific index of key stdin](./assets/gifs/json_key_index_exemple_stdin.gif)
 
 ## To print a nested oject
+```bash
+./json_parser data.json details.city
+```
 ![Exemple nested object](./assets/gifs/json_nested_object.gif)
 
 #### You can also use standard input
-
+```bash
+cat data.json | ./json_parser details.city
+```
 ![Exemple nested Object stdin](./assets/gifs/json_nested_object_stdin.gif)
 
 ## To print a nested object with specific tab index
+```bash
+./json_parser data.json details.city 1
+```
 ![Exemple nested object index](./assets/gifs/json_nested_object_index.gif)
 
 #### You can also use standard input
-
+```bash
+cat data.json | ./json_parser details.city 1
+```
 ![Exemple nested Object stdin](./assets/gifs/json_nested_object_index_stdin.gif)
 
 ## To print all occurences of a value
+```bash
+./json_parser -s javascript data.json
+```
 ![Exemple print all occurences of a value](./assets/gifs/json_all_occurences_value.gif)
 
 #### You can also use standard input
-
+```bash
+cat data.json | ./json_parser -s javascript
+```
 ![Exemple print all occurences of a value stdin](./assets/gifs/json_all_occurences_value_stdin.gif)
