@@ -25,7 +25,7 @@ This is a Rust-based command-line utility designed to parse, analyze, and search
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-repo/json-parser.git
+   git clone https://github.com/nightwolf-1/json_parser.git
    cd json-parser
     ```
 2. Build the project:
